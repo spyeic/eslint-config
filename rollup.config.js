@@ -1,6 +1,6 @@
 import commonjs from "@rollup/plugin-commonjs";
 
-const configNames = ["common", "ts"];
+const configNames = ["common", "typescript"];
 const config = [];
 
 for (const name of configNames) {
