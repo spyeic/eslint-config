@@ -1,0 +1,10 @@
+.idea
+.vscode
+
+src/
+node_modules/
+.git/
+
+.eslintrc.js
+.gitignore
+rollup.config.js
