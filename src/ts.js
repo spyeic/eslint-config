@@ -3,6 +3,7 @@ module.exports = {
         "spyeic",
         "plugin:@typescript-eslint/recommended"
     ],
+    parser: "@typescript-eslint/parser",
     rules: {
         "@typescript-eslint/typedef": ["error", {
             "arrayDestructuring": false,
