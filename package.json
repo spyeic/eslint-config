@@ -1,7 +1,7 @@
 {
     "type": "module",
     "name": "eslint-config-spyeic",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "spyeic's eslint config",
     "main": "./dist/cjs/common.cjs",
     "module": "./dist/esm/common.mjs",
