@@ -1,7 +1,7 @@
 {
     "type": "module",
     "name": "eslint-config-spyeic",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "spyeic's eslint config",
     "main": "./dist/cjs/common.cjs",
     "module": "./dist/esm/common.mjs",
@@ -15,6 +15,11 @@
             "import": "./dist/esm/typescript.mjs",
             "require": "./dist/cjs/typescript.cjs",
             "default": "./dist/esm/typescript.cjs"
+        },
+        "./react": {
+            "import": "./dist/esm/react.mjs",
+            "require": "./dist/cjs/react.cjs",
+            "default": "./dist/esm/react.cjs"
         }
     },
     "scripts": {
