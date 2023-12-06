@@ -1,7 +1,7 @@
 {
     "type": "module",
     "name": "eslint-config-spyeic",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "spyeic's eslint config",
     "main": "./dist/cjs/common.cjs",
     "module": "./dist/esm/common.mjs",
@@ -38,6 +38,7 @@
     "peerDependencies": {
         "eslint": ">=8",
         "eslint-plugin-import": ">=2",
+        "eslint-plugin-react": ">=7",
         "@typescript-eslint/eslint-plugin": ">=6",
         "@typescript-eslint/parser": ">=6"
     },
